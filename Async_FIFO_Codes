@@ -1,0 +1,8 @@
+Below file names are Building blocks of an Asynchronous FIFO to transfer data between two clock domains.
+
+fifo1 ---- This a Complete module defined in structural way by calling components fifomem,rptr_empty,sync_r2w,sync_w2r,wptr_full blocks
+fifomem
+rptr_empty
+sync_r2w
+sync_w2r
+wptr_full
